@@ -44,6 +44,7 @@ w1        爱       义项描述3       句子3           s2
 ## 使用说明
 
 ## 引用
+```
 @inproceedings{lei-etal-2021,
     title = "古汉语词义标注语料库的构建及应用研究",
     author = "Lei Shu, Yiluan Guo, Huiping Wang, Xuetao Zhang and Renfen Hu",
@@ -54,3 +55,4 @@ w1        爱       义项描述3       句子3           s2
     publisher = "Chinese Information Processing Society of China",
     language = "Chinese",
 }
+```
