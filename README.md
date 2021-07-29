@@ -41,3 +41,16 @@ w1        爱       义项描述1       句子1           s1
 w1        爱       义项描述2       句子2           s1
 w1        爱       义项描述3       句子3           s2
 ```
+## 使用说明
+
+## 引用
+@inproceedings{lei-etal-2021,
+    title = "古汉语词义标注语料库的构建及应用研究",
+    author = "Lei Shu, Yiluan Guo, Huiping Wang, Xuetao Zhang and Renfen Hu",
+    booktitle = "Proceedings of the 20th Chinese National Conference on Computational Linguistics",
+    month = oct,
+    year = "2021",
+    address = "Hohhot, China",
+    publisher = "Chinese Information Processing Society of China",
+    language = "Chinese",
+}
