@@ -1,5 +1,5 @@
 
-# 古汉语词义消岐语料库 Ancient Chinese Corpus with Word Sense Annotation
+# 古汉语词义标注语料库 Ancient Chinese Corpus with Word Sense Annotation
 github项目名称：ancient_chinese_sense_annotation
 
 ## 简介
