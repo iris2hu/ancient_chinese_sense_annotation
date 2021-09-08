@@ -55,14 +55,22 @@ w1        爱       义项描述3       句子3           s2
 
 ## 引用
 ```
-@inproceedings{lei-etal-2021,
-    title = "古汉语词义标注语料库的构建及应用研究",
-    author = "Lei Shu, Yiluan Guo, Huiping Wang, Xuetao Zhang and Renfen Hu",
+@inproceedings{shu-etal-2021-gu,
+    title = "古汉语词义标注语料库的构建及应用研究(The Construction and Application of {A}ncient {C}hinese Corpus with Word Sense Annotation)",
+    author = "Shu, Lei  and
+      Guo, Yiluan  and
+      Wang, Huiping  and
+      Zhang, Xuetao  and
+      Hu, Renfen",
     booktitle = "Proceedings of the 20th Chinese National Conference on Computational Linguistics",
-    month = oct,
+    month = aug,
     year = "2021",
-    address = "Hohhot, China",
+    address = "Huhhot, China",
     publisher = "Chinese Information Processing Society of China",
+    url = "https://aclanthology.org/2021.ccl-1.50",
+    pages = "549--563",
+    abstract = "{``}古汉语以单音节词为主,其一词多义现象十分突出,这为现代人理解古文含义带来了一定的挑战。为了更好地实现古汉语词义的分析和判别,本研究基于传统辞书和语料库反映的语言事实,设计了针对古汉语多义词的词义划分原则,并对常用古汉语单音节词进行词义级别的知识整理,据此对包含多义词的语料开展词义标注。现有的语料库包含3.87万条标注数据,规模超过117.6万字,丰富了古代汉语领域的语言资源。实验显示,基于该语料库和BERT语言模型,词义判别算法准确率达到80{\%}左右。进一步地,本文以词义历时演变分析和义族归纳为案例,初步探索了语料库与词义消歧技术在语言本体研究和词典编撰等领域的应用。{''}",
     language = "Chinese",
 }
+
 ```
