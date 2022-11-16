@@ -74,3 +74,9 @@ w1        爱       义项描述3       句子3           s2
 }
 
 ```
+
+本文所使用的古汉语四库全书BERT下载地址：
+
+百度网盘
+https://pan.baidu.com/s/1c2WTjJbV4yIGIzQkDB08nw 
+提取码：7h3o
