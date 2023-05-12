@@ -149,7 +149,7 @@ if __name__ == "__main__":
 
 
     filename = 'data/20230508_icip_ancient_chinese_annotation_corpus.xlsx' #语料库excel文件位置 The place of the .xlsx annotated corpus
-    out_dir = "sense_prototypes_2023_fullmode" #原型向量输出位置 output direction of prototype vectors
+    out_dir = "output_data/sense_prototypes_fullmode" #原型向量输出位置 output direction of prototype vectors
     if not os.path.exists(out_dir):
         os.mkdir(out_dir)
     already_done = glob.glob(out_dir + "/*")
