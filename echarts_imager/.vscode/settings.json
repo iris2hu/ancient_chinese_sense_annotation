@@ -1,0 +1,4 @@
+{
+  "jupyter.jupyterServerType": "local",
+  "python.analysis.typeCheckingMode": "basic"
+}
