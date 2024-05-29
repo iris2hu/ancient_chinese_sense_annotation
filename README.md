@@ -109,7 +109,7 @@ python3 experiment.py threshold
 本文所使用的古汉语四库全书BERT下载地址：
 
 pytorch版：
-百度网盘
+链接：
 https://pan.baidu.com/s/1c2WTjJbV4yIGIzQkDB08nw 
 提取码：7h3o
 
