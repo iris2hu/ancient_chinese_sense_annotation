@@ -12,6 +12,7 @@ github项目名称：ancient_chinese_sense_annotation
 =================
   * [项目特色](#项目特色)
   * [语料库字段介绍](#语料库字段介绍)
+  * 实验代码
   * [引用](#引用)
 
 
@@ -52,6 +53,34 @@ w1        爱       义项描述2       句子2           s1
 w1        爱       义项描述3       句子3           s2
 ```
 
+## 实验代码
+
+### tensorflow版（论文中使用）
+1. 开启bert_service(建议使用nohup后台挂起)
+bert-serving-start \
+    -pooling_strategy NONE \
+    -max_seq_len 128 \
+    -pooling_layer -1 \
+    -device_map 0 \
+    -model_dir siku_bert_tf \
+    -show_tokens_to_client \
+    -priority_batch_size 32 
+
+2. 获取向量
+python3 get_token_emb.py
+- 运行该文件，直接读取./data中的EXCEL文件，经预处理滤除不规范的数据后，向bert_service请求向量
+- 将目标词的embedding信息以pickle形式保存
+
+3. 词义标注实验
+python3 experiment.py threshold
+- threshold为阈值，可以在此自行调整，比如取5，则代表仅实验例句数>=5的义项
+- 实验结果有两份，statistics文件为每个词实验时涉及的例句、义项数量等信息，tag_result文件为标注结果
+
+### pytorch版（更简单）
+
+python3 get_token_emb_torch.py
+python3 experiment.py threshold
+
 
 ## 引用
 ```
@@ -77,6 +106,12 @@ w1        爱       义项描述3       句子3           s2
 
 本文所使用的古汉语四库全书BERT下载地址：
 
+pytorch版：
 百度网盘
 https://pan.baidu.com/s/1c2WTjJbV4yIGIzQkDB08nw 
 提取码：7h3o
+
+tensorflow版：
+链接：https://pan.baidu.com/s/1EnZmh2G7mflzRvf6Wck2EA?pwd=e87j 
+提取码：e87j
+
