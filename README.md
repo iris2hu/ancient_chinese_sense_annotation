@@ -57,6 +57,7 @@ w1        爱       义项描述3       句子3           s2
 
 ### tensorflow版（论文中使用）
 1. 开启bert_service(建议使用nohup后台挂起)
+
 bert-serving-start \
     -pooling_strategy NONE \
     -max_seq_len 128 \
@@ -79,6 +80,7 @@ python3 experiment.py threshold
 ### pytorch版（更简单）
 
 python3 get_token_emb_torch.py
+
 python3 experiment.py threshold
 
 
